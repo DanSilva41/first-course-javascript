@@ -1,5 +1,9 @@
 var titulo = document.querySelector('.titulo');
-console.log(titulo);
-console.log(titulo.textContent);
-
 titulo.textContent = 'Smart Nutri';
+
+var primeiroPaciente = document.querySelector('#primeiro-paciente');
+console.log(primeiroPaciente);
+var peso = primeiroPaciente.querySelector('.info-peso');
+console.log(peso.textContent);
+var altura = primeiroPaciente.querySelector('.info-altura');
+console.log(altura.textContent);
