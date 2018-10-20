@@ -1,0 +1,2 @@
+O DOM (Document Object Model) é a representação do HTML para o nosso JavaScript, acessível por uma palava do JavaScript chamada 'document'.
+ > document.querySelector('h1'); < Permite buscar pequenos elementos da página. 
