@@ -4,7 +4,9 @@ titulo.textContent = 'Smart Nutri';
 var pacientes = document.querySelectorAll('.paciente');
 console.log(pacientes);
 
-pacientes.forEach(calcularImc);
+for(var i = 0; i < pacientes.length; i++) {
+    calcularImc(pacientes[i]);
+}
 
 function calcularImc(paciente) {
     var tdPeso = paciente.querySelector('.info-peso');
