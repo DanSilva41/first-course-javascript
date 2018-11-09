@@ -31,7 +31,7 @@ function calcularImc(paciente) {
     if(pesoEhValido && alturaEhValida) {
         var valorImc = peso / (altura * altura);
         console.log('IMC: '+ valorImc);
-        tdImc.textContent = valorImc;
+        tdImc.textContent = valorImc.toFixed(2);
     } else {
         tdImc.textContent = 'Peso e/ou altura inválidos!';
     }

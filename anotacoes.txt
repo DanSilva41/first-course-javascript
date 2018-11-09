@@ -5,3 +5,6 @@ O DOM (Document Object Model) é a representação do HTML para o nosso JavaScri
 - Boa prática: Escrever os arquivos js no final da página HTML
 
 document.querySelectorAll - buscar todos os elementos que atendem ao parametro
+
+var num = 10.2534;
+num.toFixed(2); // imprime 10.25
