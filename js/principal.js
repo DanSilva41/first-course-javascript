@@ -34,5 +34,12 @@ function calcularImc(paciente) {
         tdImc.textContent = valorImc.toFixed(2);
     } else {
         tdImc.textContent = 'Peso e/ou altura inválidos!';
+        paciente.classList.add("paciente-invalido");
     }
+}
+
+titulo.addEventListener("click", mostraMensagem);
+
+function mostraMensagem() {
+    console.log("Clicando do Titulo!!");
 }

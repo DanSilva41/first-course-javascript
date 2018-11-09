@@ -8,3 +8,14 @@ document.querySelectorAll - buscar todos os elementos que atendem ao parametro
 
 var num = 10.2534;
 num.toFixed(2); // imprime 10.25
+
+Manipulando estilo de elementos por js
+- paciente.style.backgroundColor
+- paciente.style.color
+
+Mas... Boa prática é adicionar classe ou remover através do JS
+paciente.classList.add("paciente-invalido"); 
+// classList: lista todas as classes de determinado elemento
+
+* Acionando eventos JS
+elemento.addEventListener("click", mostraMensagem); //  adicionar evento de escuta
