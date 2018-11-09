@@ -47,3 +47,8 @@ function calcularImc(paciente) {
 titulo.addEventListener("click", function() {;
     console.log("Clicando do Titulo!!");
 });
+
+var btnAdicionarPaciente = document.querySelector("#adicionar-paciente");
+btnAdicionarPaciente.addEventListener("click", function() {
+    console.log("Adicionando paciente....");
+});
