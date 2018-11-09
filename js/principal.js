@@ -38,8 +38,12 @@ function calcularImc(paciente) {
     }
 }
 
-titulo.addEventListener("click", mostraMensagem);
+//titulo.addEventListener("click", mostraMensagem);
 
-function mostraMensagem() {
+//function mostraMensagem() {
+//    console.log("Clicando do Titulo!!");
+//}
+
+titulo.addEventListener("click", function() {;
     console.log("Clicando do Titulo!!");
-}
+});
