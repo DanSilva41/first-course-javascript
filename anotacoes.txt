@@ -19,3 +19,7 @@ paciente.classList.add("paciente-invalido");
 
 * Acionando eventos JS
 elemento.addEventListener("click", mostraMensagem); //  adicionar evento de escuta
+
+Prevenindo a ação de um evento invocado por um botão:
+            function(event)...
+event.preventDefault();

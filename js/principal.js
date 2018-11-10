@@ -49,6 +49,21 @@ titulo.addEventListener("click", function() {;
 });
 
 var btnAdicionarPaciente = document.querySelector("#adicionar-paciente");
-btnAdicionarPaciente.addEventListener("click", function() {
+btnAdicionarPaciente.addEventListener("click", function(event) {
+    event.preventDefault();
     console.log("Adicionando paciente....");
+    adicionarDiv();
 });
+
+function adicionarDiv() {
+    var h1 = document.createElement("h1");
+    
+    h1.classList.add("paciente-invalido");
+    h1.textContent = "Agora simm!";
+
+    var p = document.createElement("p");
+    p.textContent = "Haha";
+
+    titulo.appendChild(h1);
+    titulo.appendChild(p);
+};
