@@ -23,3 +23,8 @@ elemento.addEventListener("click", mostraMensagem); //  adicionar evento de escu
 Prevenindo a ação de um evento invocado por um botão:
             function(event)...
 event.preventDefault();
+
+createElement("<tag>"); // Criar elementos HTML
+
+- A acessar os input de um form por meio da propriedade _name_.
+- A adicionar elementos na página e dentro de outros elementos com a função appendChild()
